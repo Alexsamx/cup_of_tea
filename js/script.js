@@ -20,8 +20,8 @@ let swiper = new Swiper('.swiper', {
 });
 
 $(document).ready(function() {
-  $('.header_burger').click(function(event) {
-    $('.header_burger,.header_menu').toggleClass('active');
+  $('.burger').click(function(event) {
+    $('.burger,.menu').toggleClass('active');
     $('body').toggleClass('lock');
   });
 });
